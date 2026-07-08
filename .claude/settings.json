@@ -1,0 +1,45 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(uvicorn *)",
+      "Bash(git *)",
+      "Bash(mkdir *)",
+      "Bash(cd * && *)",
+      "WebFetch(http://localhost:*)",
+      "WebFetch(https://api.deepseek.com/*)",
+      "Read(*)",
+      "Write(backend/**)",
+      "Write(frontend/**)",
+      "Write(CLAUDE.md)",
+      "Write(.claude/**)",
+      "Write(REQUIREMENTS.md)",
+      "Write(HIGH_LEVEL_DESIGN.md)",
+      "Write(PROJECT_PROMPT.md)",
+      "Edit(backend/**)",
+      "Edit(frontend/**)",
+      "Edit(CLAUDE.md)",
+      "Edit(.claude/**)",
+      "Edit(REQUIREMENTS.md)",
+      "Edit(HIGH_LEVEL_DESIGN.md)",
+      "Edit(PROJECT_PROMPT.md)",
+      "Glob(backend/**)",
+      "Glob(frontend/**)",
+      "Glob(**/*.md)",
+      "Grep(backend/**)",
+      "Grep(frontend/**)",
+      "Grep(**/*.md)"
+    ]
+  },
+  "project": {
+    "name": "LightJourney",
+    "type": "web",
+    "backendPort": 8000,
+    "frontendPort": 5173,
+    "pythonVersion": "3.10+",
+    "nodeVersion": "18+"
+  }
+}
